@@ -55,7 +55,7 @@ document.writeln(fib1(n) + '<br><br>');
 document.writeln('Рекурсивний метод №2<br>');
 
 function fib2(n) {
-      return n <= 1 ? n : fib2(n - 1) + fib2(n - 2);
+      return n <= 1 ? n : fib2(n - 1) + fib2(n - 2); // не цілком розумію, як працюють оператори ? та :
     }
     
 document.writeln(fib2(n));    
