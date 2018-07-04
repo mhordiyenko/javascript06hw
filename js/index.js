@@ -28,7 +28,7 @@ document.writeln(fibMas + '<br><br>');
 
 //---------------------------------------------------------------------
 
-document.writeln('Рекурсивний метод за формулою Біне<br>');
+document.writeln('Метод за формулою Біне<br>');
 
 function fibBine(n){
   let index = Math.pow(5, 0.5);
